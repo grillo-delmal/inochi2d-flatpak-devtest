@@ -1,1 +1,78 @@
-{"Registry": "https://ghcr.io/","Results": []}
+{
+  "Registry": "https://ghcr.io/",
+  "Results": [
+    {
+      "Name": "grillo-delmal/inochi-creator-nightly",
+      "Images": [
+        {
+          "Name": "ghcr.io/grillo-delmal/inochi-creator-nightly",
+          "Digest": "sha256:b24b958540d273745f45d8d4448eaf842c77bd2f4d1aed5b81d38a65d26f42f4",
+          "RepoTags": [
+            "devtest"
+          ],
+          "Created": "2023-05-14T07:24:49Z",
+          "DockerVersion": "",
+          "Labels": {
+            "org.flatpak.body": "Name: io.github.grillo_delmal.inochi-creator\nArch: x86_64\nBranch: devtest\nBuilt with: Flatpak 1.15.4\n",
+            "org.flatpak.commit": "00b7b685b0575fb6e9d2331f1be716bba6f4df06d69fa2331727e0b8ab217b2d",
+            "org.flatpak.commit-metadata.ostree.collection-binding": "AABz",
+            "org.flatpak.commit-metadata.ostree.ref-binding": "YXBwL2lvLmdpdGh1Yi5ncmlsbG9fZGVsbWFsLmlub2NoaS1jcmVhdG9yL3g4Nl82NC9kZXZ0ZXN0ADoAYXM=",
+            "org.flatpak.commit-metadata.xa.download-size": "AAAAAAFq46MAdA==",
+            "org.flatpak.commit-metadata.xa.installed-size": "AAAAAAJnJAAAdA==",
+            "org.flatpak.commit-metadata.xa.metadata": "W0FwcGxpY2F0aW9uXQpuYW1lPWlvLmdpdGh1Yi5ncmlsbG9fZGVsbWFsLmlub2NoaS1jcmVhdG9yCnJ1bnRpbWU9b3JnLmZyZWVkZXNrdG9wLlBsYXRmb3JtL3g4Nl82NC8yMi4wOApzZGs9b3JnLmZyZWVkZXNrdG9wLlNkay94ODZfNjQvMjIuMDgKY29tbWFuZD1pbm9jaGktY3JlYXRvcgoKW0NvbnRleHRdCnNoYXJlZD1pcGM7CnNvY2tldHM9eDExO3dheWxhbmQ7ZmFsbGJhY2steDExOwpkZXZpY2VzPWFsbDsKZmlsZXN5c3RlbXM9aG9zdDsKCltFeHRlbnNpb24gaW8uZ2l0aHViLmdyaWxsb19kZWxtYWwuaW5vY2hpX2NyZWF0b3IuRGVidWddCmRpcmVjdG9yeT1saWIvZGVidWcKYXV0b2RlbGV0ZT10cnVlCm5vLWF1dG9kb3dubG9hZD10cnVlCgpbQnVpbGRdCmJ1aWx0LWV4dGVuc2lvbnM9aW8uZ2l0aHViLmdyaWxsb19kZWxtYWwuaW5vY2hpX2NyZWF0b3IuRGVidWc7AABz",
+            "org.flatpak.commit-metadata.xa.ref": "YXBwL2lvLmdpdGh1Yi5ncmlsbG9fZGVsbWFsLmlub2NoaS1jcmVhdG9yL3g4Nl82NC9kZXZ0ZXN0AABz",
+            "org.flatpak.download-size": "23700036",
+            "org.flatpak.installed-size": "40313856",
+            "org.flatpak.metadata": "[Application]\nname=io.github.grillo_delmal.inochi-creator\nruntime=org.freedesktop.Platform/x86_64/22.08\nsdk=org.freedesktop.Sdk/x86_64/22.08\ncommand=inochi-creator\n\n[Context]\nshared=ipc;\nsockets=x11;wayland;fallback-x11;\ndevices=all;\nfilesystems=host;\n\n[Extension io.github.grillo_delmal.inochi_creator.Debug]\ndirectory=lib/debug\nautodelete=true\nno-autodownload=true\n\n[Build]\nbuilt-extensions=io.github.grillo_delmal.inochi_creator.Debug;",
+            "org.flatpak.ref": "app/io.github.grillo_delmal.inochi-creator/x86_64/devtest",
+            "org.flatpak.subject": "Export io.github.grillo_delmal.inochi-creator",
+            "org.flatpak.timestamp": "1684049089",
+            "org.freedesktop.appstream.appdata": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<components version=\"0.8\" origin=\"flatpak\">\n  <component type=\"desktop\">\n    <id>io.github.grillo_delmal.inochi-creator</id>\n    <requires/>\n    <name>Inochi Creator</name>\n    <summary>Tool to create and edit Inochi2D puppets.</summary>\n    <developer_name>Luna Nielsen</developer_name>\n    <description><p>(null)</p><p>Inochi2D is a framework for realtime 2D puppet animation which can be used for VTubing, game development and digital animation.</p><p>Inochi Creator is a tool that lets you create and edit Inochi2D puppets.</p></description>\n    <categories>\n      <category>Graphics</category>\n    </categories>\n    <project_license>BSD-2-Clause</project_license>\n    <url type=\"help\">https://docs.inochi2d.com</url>\n    <url type=\"homepage\">https://github.com/grillo-delmal/inochi-creator-nightly</url>\n    <screenshots>\n      <screenshot type=\"default\">\n        <caption>Title screen</caption>\n        <image type=\"source\">https://user-images.githubusercontent.com/7032834/194462402-74c4a3e0-50ca-4b50-8e8d-164d97371f5a.png</image>\n      </screenshot>\n    </screenshots>\n    <content_rating type=\"oars-1.1\"/>\n    <releases>\n      <release version=\"devtest\">\n        <url type=\"unknown\">https://github.com/Inochi2D/inochi-creator/</url>\n        <description><p>This is a development test build of Inochi Creator!</p><p>Inochi Creator may crash unexpectedly and you will likely encounter bugs.</p><p>Make sure to save and back up your work often!</p></description>\n      </release>\n    </releases>\n    <launchable type=\"desktop-id\">git.grillo_delmal.inochi-creator.desktop</launchable>\n    <bundle type=\"flatpak\" runtime=\"org.freedesktop.Platform/x86_64/22.08\" sdk=\"org.freedesktop.Sdk/x86_64/22.08\">app/io.github.grillo_delmal.inochi-creator/x86_64/devtest</bundle>\n  </component>\n</components>"
+          },
+          "Architecture": "amd64",
+          "Os": "linux",
+          "Layers": [
+            "sha256:ad1028694293e5e9828042bc681d92d5ab7b9f6a6fdf8642efca6fe58d4be733"
+          ],
+          "Env": null
+        }
+      ]
+    },
+    {
+      "Name": "grillo-delmal/inochi-creator-nightly-debug",
+      "Images": [
+        {
+          "Name": "ghcr.io/grillo-delmal/inochi-creator-nightly-debug",
+          "Digest": "sha256:5a3701544f0dbc19db383f455669ed23cf7f80f9ea57202fd2d8fe597b99c5b1",
+          "RepoTags": [
+            "devtest"
+          ],
+          "Created": "2023-05-14T07:24:51Z",
+          "DockerVersion": "",
+          "Labels": {
+            "org.flatpak.body": "Name: io.github.grillo_delmal.inochi_creator.Debug\nArch: x86_64\nBranch: devtest\nBuilt with: Flatpak 1.15.4\n",
+            "org.flatpak.commit": "adc87a1ecae58b39235b883d54d7510beb72b0f05fdc14f2defe159ecc233d87",
+            "org.flatpak.commit-metadata.ostree.collection-binding": "AABz",
+            "org.flatpak.commit-metadata.ostree.ref-binding": "cnVudGltZS9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGlfY3JlYXRvci5EZWJ1Zy94ODZfNjQvZGV2dGVzdABEAGFz",
+            "org.flatpak.commit-metadata.xa.download-size": "AAAAAAHxVuQAdA==",
+            "org.flatpak.commit-metadata.xa.installed-size": "AAAAAAOaLgAAdA==",
+            "org.flatpak.commit-metadata.xa.metadata": "W1J1bnRpbWVdCm5hbWU9aW8uZ2l0aHViLmdyaWxsb19kZWxtYWwuaW5vY2hpX2NyZWF0b3IuRGVidWcKCltFeHRlbnNpb25PZl0KcmVmPWFwcC9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGktY3JlYXRvci94ODZfNjQvZGV2dGVzdAoAAHM=",
+            "org.flatpak.commit-metadata.xa.ref": "cnVudGltZS9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGlfY3JlYXRvci5EZWJ1Zy94ODZfNjQvZGV2dGVzdAAAcw==",
+            "org.flatpak.download-size": "31493835",
+            "org.flatpak.installed-size": "60435968",
+            "org.flatpak.metadata": "[Runtime]\nname=io.github.grillo_delmal.inochi_creator.Debug\n\n[ExtensionOf]\nref=app/io.github.grillo_delmal.inochi-creator/x86_64/devtest\n",
+            "org.flatpak.ref": "runtime/io.github.grillo_delmal.inochi_creator.Debug/x86_64/devtest",
+            "org.flatpak.subject": "Export io.github.grillo_delmal.inochi_creator.Debug",
+            "org.flatpak.timestamp": "1684049091"
+          },
+          "Architecture": "amd64",
+          "Os": "linux",
+          "Layers": [
+            "sha256:e6441753b172eeec192d564ddec797ef10d37c1d45d7e39e463052bd7d2b027a"
+          ],
+          "Env": null
+        }
+      ]
+    }
+  ]
+}
