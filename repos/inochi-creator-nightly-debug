@@ -3,32 +3,32 @@
   "Images": [
     {
       "Name": "ghcr.io/grillo-delmal/inochi-creator-nightly-debug",
-      "Digest": "sha256:c7426e9ce72ed43033d46b79218cf1a1141f5e507a24d544ad2af72229114c3e",
+      "Digest": "sha256:715e7b31684e4495d2b6ee27c60caeeb8edab68e74d6140e5f2bc3bce1674377",
       "RepoTags": [
         "devtest"
       ],
-      "Created": "2023-07-09T01:54:50Z",
+      "Created": "2023-07-10T01:36:28Z",
       "DockerVersion": "",
       "Labels": {
         "org.flatpak.body": "Name: io.github.grillo_delmal.inochi_creator.Debug\nArch: x86_64\nBranch: devtest\nBuilt with: Flatpak 1.15.4\n",
-        "org.flatpak.commit": "019a1e12febbf5ab2fd16c622770dccc3a9865a65077aeb11ab120e8d9e49ecd",
+        "org.flatpak.commit": "cb6931bd1d6b252db9c0fa9f2eb550d443a05f087c994745b94e45aa8ecbd8a1",
         "org.flatpak.commit-metadata.ostree.collection-binding": "AABz",
         "org.flatpak.commit-metadata.ostree.ref-binding": "cnVudGltZS9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGlfY3JlYXRvci5EZWJ1Zy94ODZfNjQvZGV2dGVzdABEAGFz",
-        "org.flatpak.commit-metadata.xa.download-size": "AAAAAAH2TVIAdA==",
-        "org.flatpak.commit-metadata.xa.installed-size": "AAAAAAOgDgAAdA==",
+        "org.flatpak.commit-metadata.xa.download-size": "AAAAAAH2WNMAdA==",
+        "org.flatpak.commit-metadata.xa.installed-size": "AAAAAAOgIgAAdA==",
         "org.flatpak.commit-metadata.xa.metadata": "W1J1bnRpbWVdCm5hbWU9aW8uZ2l0aHViLmdyaWxsb19kZWxtYWwuaW5vY2hpX2NyZWF0b3IuRGVidWcKCltFeHRlbnNpb25PZl0KcmVmPWFwcC9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGktY3JlYXRvci94ODZfNjQvZGV2dGVzdAoAAHM=",
         "org.flatpak.commit-metadata.xa.ref": "cnVudGltZS9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGlfY3JlYXRvci5EZWJ1Zy94ODZfNjQvZGV2dGVzdAAAcw==",
-        "org.flatpak.download-size": "31817025",
-        "org.flatpak.installed-size": "60820992",
+        "org.flatpak.download-size": "31820414",
+        "org.flatpak.installed-size": "60826112",
         "org.flatpak.metadata": "[Runtime]\nname=io.github.grillo_delmal.inochi_creator.Debug\n\n[ExtensionOf]\nref=app/io.github.grillo_delmal.inochi-creator/x86_64/devtest\n",
         "org.flatpak.ref": "runtime/io.github.grillo_delmal.inochi_creator.Debug/x86_64/devtest",
         "org.flatpak.subject": "Export io.github.grillo_delmal.inochi_creator.Debug",
-        "org.flatpak.timestamp": "1688867690"
+        "org.flatpak.timestamp": "1688952988"
       },
       "Architecture": "amd64",
       "Os": "linux",
       "Layers": [
-        "sha256:e338b8619cb814bacc4ab1fc7596cef794183d90c04d82afcb16269802ac17ab"
+        "sha256:6d0e4a835876f282e7f31d50ea0f023833552362edba6ee5e6c1c587d806d898"
       ],
       "Env": null
     }
