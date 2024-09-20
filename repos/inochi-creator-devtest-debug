@@ -1,0 +1,36 @@
+{
+  "Name": "grillo-delmal/inochi-creator-devtest-debug",
+  "Images": [
+    {
+      "Name": "ghcr.io/grillo-delmal/inochi-creator-devtest-debug",
+      "Digest": "sha256:be6cdd16f8117182f4a827d1ea9cd1ed0adf9d3644c3f073997b62c488c64208",
+      "RepoTags": [
+        "devtest"
+      ],
+      "Created": "2024-09-20T21:34:56Z",
+      "DockerVersion": "",
+      "Labels": {
+        "org.flatpak.body": "Name: io.github.grillo_delmal.inochi_creator.Debug\nArch: x86_64\nBranch: devtest\nBuilt with: Flatpak 1.15.10\n",
+        "org.flatpak.commit": "c3c0631ee0c0fd38dfddb0a35f9647c7154e5237727fd14c28225c4402cba978",
+        "org.flatpak.commit-metadata.ostree.collection-binding": "AABz",
+        "org.flatpak.commit-metadata.ostree.ref-binding": "cnVudGltZS9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGlfY3JlYXRvci5EZWJ1Zy94ODZfNjQvZGV2dGVzdABEAGFz",
+        "org.flatpak.commit-metadata.xa.download-size": "AAAAAABaqowAdA==",
+        "org.flatpak.commit-metadata.xa.installed-size": "AAAAAAB/ZAAAdA==",
+        "org.flatpak.commit-metadata.xa.metadata": "W1J1bnRpbWVdCm5hbWU9aW8uZ2l0aHViLmdyaWxsb19kZWxtYWwuaW5vY2hpX2NyZWF0b3IuRGVidWcKCltFeHRlbnNpb25PZl0KcmVmPWFwcC9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGktY3JlYXRvci94ODZfNjQvZGV2dGVzdAoAAHM=",
+        "org.flatpak.commit-metadata.xa.ref": "cnVudGltZS9pby5naXRodWIuZ3JpbGxvX2RlbG1hbC5pbm9jaGlfY3JlYXRvci5EZWJ1Zy94ODZfNjQvZGV2dGVzdAAAcw==",
+        "org.flatpak.download-size": "5898267",
+        "org.flatpak.installed-size": "8348672",
+        "org.flatpak.metadata": "[Runtime]\nname=io.github.grillo_delmal.inochi_creator.Debug\n\n[ExtensionOf]\nref=app/io.github.grillo_delmal.inochi-creator/x86_64/devtest\n",
+        "org.flatpak.ref": "runtime/io.github.grillo_delmal.inochi_creator.Debug/x86_64/devtest",
+        "org.flatpak.subject": "Export io.github.grillo_delmal.inochi_creator.Debug",
+        "org.flatpak.timestamp": "1726868096"
+      },
+      "Architecture": "amd64",
+      "Os": "linux",
+      "Layers": [
+        "sha256:d63305a5ff6a085f492719abdaa1e890405685f85cf77842559737b189604e75"
+      ],
+      "Env": null
+    }
+  ]
+}
