@@ -7,7 +7,7 @@ Their purpose is to test development features and deployment, so there is no war
 ## Installing
 
 ```sh
-flatpak remote-add grillo-inochi2d oci+https://grillo-delmal.github.io//inochi2d-flatpak-devtest
+flatpak remote-add grillo-inochi2d oci+https://grillo-delmal.github.io/inochi2d-flatpak-devtest
 flatpak install grillo-inochi2d io.github.grillo_delmal.inochi-creator
 ```
 
